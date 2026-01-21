@@ -1,3 +1,10 @@
+import pandas as pd
+import streamlit as st
+import matplotlib.pyplot as plt
+import seaborn as sns
+import folium
+from streamlit_folium import folium_static
+
 dados = {
          'Municipio': ['São Luís', 'São José de Ribamar', 'Paço do Lumiar', 'Raposa'],
          '2016': [1200, 500, 300, 150],
